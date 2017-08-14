@@ -1,0 +1,7 @@
+-1
+2 repeat
+-7.0 add
+-3.0 sub
+-5.0 mult
+-2.0 div
+endrepeat

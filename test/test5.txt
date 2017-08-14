@@ -1,0 +1,6 @@
+0.1
+0.2 add
+0.3 mult
+0.4 div
+0.5 sub
+0.6 sqrt

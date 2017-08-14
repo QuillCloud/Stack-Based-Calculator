@@ -221,12 +221,10 @@ void check_stack_empty(std::stack<std::string> &token_stack) {
 
 // Function for check if number is valid
 bool check_number_valid(std::string &num) {
-
     // for check if a '.' already exists.
     bool point_flag = false;
-
     // If first character is digits or is '-' and size greater than 1, do next process. If not, return false
-    if (isdigit(num[0]) || (num[0] == '-' && num.size() > 1)) {
+    if (isdigit(num[0]) || num[0] == '.' || (num[0] == '-' && num.size() > 1)) {
         // check other character
         for (auto i = num.begin() + 1; i != num.end(); ++i) {
             //if it is not number

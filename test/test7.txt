@@ -1,0 +1,6 @@
+-1.0
+-2 add
+-3 mult
+-4 div
+-5 sub
+6.0 sqrt
