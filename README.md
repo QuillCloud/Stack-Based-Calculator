@@ -1,21 +1,38 @@
 Sample input:
 
 10 20 sub
-4 3 add 
+
+4 3 add
+
 2 mult
-16.0 
+
+16.0
+
 2 repeat
+
 sqrt
+
 endrepeat
+
 pop
+
 2.0
+
 mult
+
 3 repeat
+
 2 
+
 2 reverse
+
 div
+
 3 mult
+
 endrepeat
+
+
 Sample output:
 
 20 - 10 = 10
